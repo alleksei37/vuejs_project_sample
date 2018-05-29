@@ -1,0 +1,56 @@
+// Gaps and margins
+@ev-HorizontalGapBase: 20px;
+@ev-HorizontalGapMinor: @ev-HorizontalGapBase / 2;
+@ev-HorizontalGapMedium: @ev-HorizontalGapBase + (@ev-HorizontalGapBase / 2);
+@ev-HorizontalGapMajor: @ev-HorizontalGapBase * 2;
+@ev-VerticalGapBase: 20px;
+@ev-VerticalGapBaseMinimum: @ev-VerticalGapBase / 4;
+@ev-VerticalGapMinor: @ev-VerticalGapBase / 2;
+@ev-VerticalGapMajor: @ev-VerticalGapBase * 2;
+
+// Typography and Fonts (in progress...)
+@ev-fontFamilyPrimary: 'Open Sans',Arial,sans-serif;
+@ev-fontFamilySecondary: 'Play',sans-serif;
+@ev-textSizeExtraLarge: 30px;
+@ev-textSizeLarge: 18px;
+@ev-textSizeBasic: 16px;
+@ev-textSizeFifteenPx: 15px;
+@ev-textSizeMedium: 14px;
+@ev-textSizeSmallMedium: 13px;
+@ev-textSizeSmall: 12px;
+@ev-mobileTextSizeSmall: 10px;
+@ev-lineHeightFactorBasic: 1.5;
+@ev-lineHeightBasicPX: @ev-textSizeBasic * @ev-lineHeightFactorBasic;
+@ev-lineHeightBasicEM: unit(@ev-lineHeightFactorBasic, em);
+
+//Border radius
+@ev-inputBorderRadius: 4px;
+
+// Colors (in progress...)
+@ev-colorBlack: #312e35;
+@ev-colorWhite: #ffffff;
+@ev-colorPrimary: #fafbfc; // Main color for background, elements, menu items, other blocks.
+@ev-colorLightBlue: #edf1f5;
+@ev-colorPrimaryShade1: #dde6ee; // Main color for active elements, some backgrounds.
+@ev-colorSecondary: #ffffff; // Secondary color which support primary colors. Backgrounds, frames, cards...
+@ev-colorBackground: #f8f9fa; //Used for backgrounds
+@ev-colorSecondaryBackground: #dfdfdf; //Used for sidebar background and other backgrounds
+@ev-colorBorder: #d8d8d8; // Used for borders around menu boxes.
+@ev-colorInputBorder: #cccccc;
+@ev-colorLightGrey: #b2b2b2;
+@ev-colorDashedBorder: #a0a0a0; //Used for dashed borders
+@ev-colorPaginationBorder: #dddddd;
+@ev-colorSeparatorLine: #eeeeee; // Used for separation lines between lists.
+@ev-colorSubmenuBorder: #888888; //Used in hamburger menus, etc.
+@ev-colorBoxShadow: #8d8d8d; // Used for box shadow
+@ev-colorBoxShadowSecondary: #787878;
+@ev-colorBlueIcon: #064164;
+@ev-colorAccentLow: #b01e21; // For links, banners, logo. Primary corporate color.
+@ev-colorAccentHigh: #e21f2b; // For Call to action buttons
+@ev-colorBanner: #444444; //Used for notification banner background
+@ev-colorText: lighten(@ev-colorBlack, 10%); // Main text content
+@ev-colorSecondaryLink: #4e4e4e; // Used for a secondary link color
+@ev-colorGreyText: #585858;
+@ev-colorTextMinor: lighten(@ev-colorBlack, 20%); // Additional text labels, minor notes...
+@ev-colorGradientStart: #F1F1F1; // Start color for gradients inside of menus.
+@ev-colorGradientEnd: #E8E8E8; // End color for gradients inside of menus.
